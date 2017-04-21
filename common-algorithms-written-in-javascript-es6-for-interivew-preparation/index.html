@@ -1,0 +1,233 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mohammad²</title>
+
+    <meta name="description" content="Your website's description goes here.
+">
+    <meta name="keywords" content="" />
+    <meta name="HandheldFriendly" content="True" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/css/prism.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78685008-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+
+    <div class="body-wrapper">
+
+      
+      <header class="container profile-header">
+  <div class="row">
+
+    <div class="col-md-4 box-margin d-flex flex-lg-row flex-column align-items-center justify-content-around box-padding profile-box">
+      <img class='img' src="/img/avatar.png">
+      <div class='d-flex flex-column justify-content-between align-items-stretch'>
+        <h1 class='display-6 text-center'><a href="/">Mohammad²</a></h1>
+        <div class="flex-row-around">
+          <a target='_blank' class="social-item" href="https://github.com/AlahmadiQ8"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+          <a target='_blank' class="social-item" href="https://www.instagram.com/boas3d/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a target='_blank' class="social-item" href="https://www.facebook.com/m91.mohammad"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a target='_blank' class="social-item" href="http://stackoverflow.com/users/5431968/mmohammad"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+          <a target='_blank' class="social-item" href="https://www.linkedin.com/in/mohammad91"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        </div>
+        <div class="flex-row-between mt-2">
+          <a href="/"><small>/home</small></a>
+          <a href="/about"><small>/about</small></a>
+          <a href="mailto:m91.alahmadi@gmail.com?subject=[My Site]"><small>/contact</small></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col hidden-xs-down box-bg box-margin-last d-flex flex-lg-row flex-column align-items-center justify-content-around box-padding">
+      <p>My name is Mohammad Mohammad (that explains the ²). I'm from Kuwait and currently live in Los Angeles. I work at <a target="_blank" href="http://home.elephantdrive.com/">ElephantDrive</a> as a Developer Support Engineer.I spend a lot of time playing with Node.js and open source projects on Github.  I also like building websites for fun. You can learn more about me here <a href="/about">here</a>. </p>
+    </div>
+
+  </div>
+</header>
+      
+
+      <div class="container">
+        <div class="row">
+
+          
+
+
+          <div class="col p-0">
+            
+
+<div class="box-bg box-margin-last box-padding-large">
+  <article class="page col-lg-9">
+
+    <header class="post-header">
+      <h1 class="post-title">Common Algorithms Written in Javascript (ES6) for Interivew preparation</h1>
+     <!--  <section class="post-meta">
+        <time class="post-date" datetime="12 April 2017">12 April 2017</time>
+        <span>&middot; </span>
+      </section> -->
+    </header>
+
+    <section class="page-content">
+      <p>Implementation of common algorithms that you may encounter in an interview.</p>
+<p><div class="table-of-contents"><ul><li><a href="#selection-sort">Selection Sort</a></li><li><a href="#binary-search">Binary Search</a></li><li><a href="#merge-two-sorted-arrays-into-one-sorted-array">Merge two sorted arrays into one sorted array</a></li></ul></div></p>
+<h2 id="selection-sort"><a class="anchor-link" href="#selection-sort" aria-hidden="true">¶</a> Selection Sort</h2>
+<p>This is the simplest sorting algorithm. It's good to at least know one or
+two sorting algorithms.</p>
+<pre><code class="language-javascript"><span class="hljs-keyword">const</span> swap = <span class="hljs-function">(<span class="hljs-params">arr, a, b</span>) =&gt;</span> {
+  <span class="hljs-keyword">const</span> temp = arr[a];
+  arr[a] = arr[b];
+  arr[b] = temp;
+}
+<span class="hljs-keyword">const</span> selectionSort = <span class="hljs-function">(<span class="hljs-params">arr</span>) =&gt;</span> {
+  <span class="hljs-keyword">let</span> min;
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i=<span class="hljs-number">0</span>; i&lt;arr.length; i++ ) {
+    min = i;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> j = i+<span class="hljs-number">1</span>; j&lt;arr.length; j++) {
+      <span class="hljs-keyword">if</span> (arr[j] &lt; arr[min]) {
+        min = j;
+      }
+    }
+    <span class="hljs-keyword">if</span> (min !== i) {
+      swap(arr, min, i);
+    }
+  }
+}
+
+<span class="hljs-keyword">const</span> arr = [<span class="hljs-number">4</span>,<span class="hljs-number">1</span>,<span class="hljs-number">6</span>,<span class="hljs-number">3</span>,<span class="hljs-number">8</span>,<span class="hljs-number">3</span>,<span class="hljs-number">7</span>,<span class="hljs-number">2</span>,<span class="hljs-number">4</span>];
+selectionSort(arr)
+<span class="hljs-built_in">console</span>.log(arr); <span class="hljs-comment">// [ 1, 2, 3, 3, 4, 4, 6, 7, 8 ]</span>
+</code></pre>
+<h2 id="binary-search"><a class="anchor-link" href="#binary-search" aria-hidden="true">¶</a> Binary Search</h2>
+<pre><code class="language-javascript"><span class="hljs-keyword">const</span> binarySearch = <span class="hljs-function">(<span class="hljs-params">arr, value</span>) =&gt;</span> {
+  <span class="hljs-keyword">let</span> low = <span class="hljs-number">0</span>, high = arr.length<span class="hljs-number">-1</span>, mid;
+
+  <span class="hljs-keyword">while</span> (low &lt;= high) {
+    mid = <span class="hljs-built_in">parseInt</span>(((high + low) / <span class="hljs-number">2</span>));
+    <span class="hljs-keyword">if</span> (value &lt; arr[mid]) {
+      high = mid<span class="hljs-number">-1</span>;
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (value &gt; arr[mid]) {
+      low = mid+<span class="hljs-number">1</span>;
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">return</span> mid;
+    }
+  }
+
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;
+}
+
+<span class="hljs-keyword">const</span> binarySearchRecursive = <span class="hljs-function">(<span class="hljs-params">arr, value, low, high</span>) =&gt;</span> {
+  <span class="hljs-keyword">if</span> (low &gt; high) <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;
+  <span class="hljs-keyword">const</span> mid = <span class="hljs-built_in">parseInt</span>(((high + low) / <span class="hljs-number">2</span>));
+  <span class="hljs-keyword">if</span> (value &lt; arr[mid]) {
+    <span class="hljs-keyword">return</span> binarySearchRecursive(arr, value, low, mid<span class="hljs-number">-1</span>);
+  } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (value &gt; arr[mid]) {
+    <span class="hljs-keyword">return</span> binarySearchRecursive(arr, value, mid+<span class="hljs-number">1</span>, high);
+  } <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">return</span> mid;
+  }
+}
+
+<span class="hljs-keyword">const</span> arr = [<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>]
+<span class="hljs-built_in">console</span>.log(binarySearch(arr, <span class="hljs-number">1</span>));  <span class="hljs-comment">// should return 0</span>
+<span class="hljs-built_in">console</span>.log(binarySearch(arr, <span class="hljs-number">5</span>));  <span class="hljs-comment">// should return 2</span>
+<span class="hljs-built_in">console</span>.log(binarySearch(arr, <span class="hljs-number">10</span>)); <span class="hljs-comment">// should return 5</span>
+<span class="hljs-built_in">console</span>.log(binarySearch(arr, <span class="hljs-number">11</span>)); <span class="hljs-comment">// should return null</span>
+<span class="hljs-built_in">console</span>.log(binarySearchRecursive(arr, <span class="hljs-number">1</span>, <span class="hljs-number">0</span>, arr.length<span class="hljs-number">-1</span>));  <span class="hljs-comment">// should return 0</span>
+<span class="hljs-built_in">console</span>.log(binarySearchRecursive(arr, <span class="hljs-number">5</span>, <span class="hljs-number">0</span>, arr.length<span class="hljs-number">-1</span>));  <span class="hljs-comment">// should return 2</span>
+<span class="hljs-built_in">console</span>.log(binarySearchRecursive(arr, <span class="hljs-number">10</span>, <span class="hljs-number">0</span>, arr.length<span class="hljs-number">-1</span>)); <span class="hljs-comment">// should return 5</span>
+<span class="hljs-built_in">console</span>.log(binarySearchRecursive(arr, <span class="hljs-number">11</span>, <span class="hljs-number">0</span>, arr.length<span class="hljs-number">-1</span>)); <span class="hljs-comment">// should return null</span>
+</code></pre>
+<h2 id="merge-two-sorted-arrays-into-one-sorted-array"><a class="anchor-link" href="#merge-two-sorted-arrays-into-one-sorted-array" aria-hidden="true">¶</a> Merge two sorted arrays into one sorted array</h2>
+<pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">merge</span>(<span class="hljs-params">arrA, arrB</span>) </span>{
+  <span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>, j = <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">const</span> arr = [];
+
+  <span class="hljs-keyword">while</span>( i &lt; arrA.length || j &lt; arrB.length) {
+    <span class="hljs-keyword">if</span> (i &lt; arrA.length &amp;&amp; arrA[i] &lt;= arrB[j]) {
+      arr.push(arrA[i]);
+      i += <span class="hljs-number">1</span>;
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (j &lt; arrB.length) {
+      arr.push(arrB[j]);
+      j += <span class="hljs-number">1</span>;
+    }
+  }
+  <span class="hljs-keyword">return</span> arr;
+}
+
+<span class="hljs-keyword">const</span> arrA = [<span class="hljs-number">1</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">10</span>];
+<span class="hljs-keyword">const</span> arrB = [<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7</span>,<span class="hljs-number">9</span>,<span class="hljs-number">11</span>];
+
+<span class="hljs-built_in">console</span>.log(merge(arrA, arrB));  <span class="hljs-comment">// should be [ 1, 2, 3, 3, 5, 6, 7, 7, 8, 9, 10, 11 ]</span>
+</code></pre>
+
+    </section>
+
+  </article>
+</div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    
+    <footer class="container border-top">
+  <div class="row justify-content-around">
+    <div class="col-sm-4 text-center box-padding">
+      <p class="footer-description">
+            &copy; Mohammad²
+      </p>
+      <p class="footer-published">
+        joyfully published by <a href="https://github.com/reptar/reptar">reptar</a>
+      </p>
+    </div>
+  </div>
+</footer> 
+    
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src="/js/prism.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
