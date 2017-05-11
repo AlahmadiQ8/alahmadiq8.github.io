@@ -78,18 +78,32 @@
           <div class="col p-0">
             
 
-<div class="box-bg box-margin-last box-padding-large">
-  <article class="page col-lg-9">
+<div class="box-bg box-margin-last box-padding-large col-md-12 mx-auto">
 
-    <header class="post-header">
-      <h1 class="post-title">Common Algorithms Written in Javascript (ES6)</h1>
-     <!--  <section class="post-meta">
-        <time class="post-date" datetime="12 April 2017">12 April 2017</time>
-        <span>&middot; </span>
-      </section> -->
-    </header>
+  <h1 class="post-title text-center">Common Algorithms Written in Javascript (ES6)</h1>
 
-    <section class="page-content">
+  <section class="post-meta  text-center mx-auto my-3 mb-4 ">
+    <div>
+      Posted on
+      <time class="post-date" datetime="12 April 2017">
+        12 April 2017
+      </time>
+    </div>
+    <div>
+      <span>
+        <a href="/tag/javascript/" class='mr-1'>#javascript</a>
+      
+        <a href="/tag/algorithms/" class='mr-1'>#algorithms</a>
+      </span>
+    </div>
+    
+  </section>
+
+
+
+  <article class="page">
+
+    <section class="page-content col-lg-9 mx-auto">
       <p>I was reviewing Sorting and Search Algorithms and figured I'd implment them all
 ES6 Syntax. This will be an open post where I'd regularly update it with more
 code snippets.</p>
@@ -185,11 +199,34 @@ selectionSort(arr)
 <span class="hljs-built_in">console</span>.log(merge(arrA, arrB));  <span class="hljs-comment">// should be [ 1, 2, 3, 3, 5, 6, 7, 7, 8, 9, 10, 11 ]</span>
 </code></pre>
 
+      <div class="mt-3" id="disqus_thread"></div>
     </section>
-
   </article>
 </div>
 
+
+
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+
+    var disqus_config = function () {
+        this.page.url = "https://alahmadiq8.github.io/common-algorithms-written-in-javascript-es6/";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "2017-4-12-common-algorithms"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = 'https://https-alahmadiq8-github-io.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
           </div>
 

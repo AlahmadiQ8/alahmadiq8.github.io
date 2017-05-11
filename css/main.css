@@ -63,6 +63,9 @@ footer {
   font-weight: 300;
   line-height: 1.1; }
 
+.border {
+  border: 2px solid #ebebeb; }
+
 .text-muted {
   color: rgba(0, 0, 0, 0.34) !important; }
 
@@ -126,6 +129,10 @@ hr {
 
 .post-title {
   margin-bottom: 3rem; }
+
+.post-meta {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: .8rem; }
 
 .anchor-link {
   float: left;
