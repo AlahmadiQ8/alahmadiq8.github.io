@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writing on Mohammad&#39;s Personal Website</title>
-    <link>https://alahmadiq8.github.io/hugo-site/posts/</link>
+    <link>https://alahmadiq8.github.io/posts/</link>
     <description>Recent content in Writing on Mohammad&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Mar 2018 11:30:02 -0800</lastBuildDate>
     
-	<atom:link href="https://alahmadiq8.github.io/hugo-site/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alahmadiq8.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>On Prioritizing Side Projects</title>
-      <link>https://alahmadiq8.github.io/hugo-site/posts/2018-03-10-on-prioritizing-side-projects/</link>
+      <link>https://alahmadiq8.github.io/posts/2018-03-10-on-prioritizing-side-projects/</link>
       <pubDate>Sat, 10 Mar 2018 13:44:26 -0800</pubDate>
       
-      <guid>https://alahmadiq8.github.io/hugo-site/posts/2018-03-10-on-prioritizing-side-projects/</guid>
+      <guid>https://alahmadiq8.github.io/posts/2018-03-10-on-prioritizing-side-projects/</guid>
       <description>I just wanted an exuse to put my Apple pencil in use 😁   There are many things I want to do in my free time. These can be anything from programming projects, exploring new hobbies, or just reading a book. However, whenever I attempt to get my hands dirty on a project, I often end up not completing it. I struggle with wasting too much time on TV, social media, or just hanging out.</description>
     </item>
     
