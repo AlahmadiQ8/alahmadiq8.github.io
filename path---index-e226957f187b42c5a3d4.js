@@ -1,2 +1,0 @@
-webpackJsonp([0x81b8806e4260],{332:function(t,e){t.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{title:"Testing Time Sensitive Operations with Jest Timer Mocks"},fields:{date:"May 13, 2017",slug:"/blog/2017/05/13/testing-with-timer-mocks"}}},{node:{frontmatter:{title:"Common Algorithms Written in Javascript (ES6)"},fields:{date:"April 12, 2017",slug:"/blog/2017/04/12/common-algorithms-interview-questions"}}}]}},pathContext:{}}}});
-//# sourceMappingURL=path---index-e226957f187b42c5a3d4.js.map
