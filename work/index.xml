@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Work on Mohammad&#39;s Personal Website</title>
+    <title>Freelance on Mohammad&#39;s Personal Website</title>
     <link>https://alahmadiq8.github.io/work/</link>
-    <description>Recent content in Work on Mohammad&#39;s Personal Website</description>
+    <description>Recent content in Freelance on Mohammad&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2018 13:44:26 -0800</lastBuildDate>
@@ -18,15 +18,6 @@
       
       <guid>https://alahmadiq8.github.io/work/parker-matthews-official-site/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Connect 4</title>
-      <link>https://alahmadiq8.github.io/work/connect-4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alahmadiq8.github.io/work/connect-4/</guid>
-      <description>omg omg omg</description>
     </item>
     
   </channel>

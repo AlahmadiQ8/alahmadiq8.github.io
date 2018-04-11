@@ -31,11 +31,20 @@
     
     <item>
       <title>Connect 4</title>
-      <link>https://alahmadiq8.github.io/work/connect-4/</link>
+      <link>https://alahmadiq8.github.io/connect-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alahmadiq8.github.io/work/connect-4/</guid>
-      <description>omg omg omg</description>
+      <guid>https://alahmadiq8.github.io/connect-4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parser Multi Line Todos for Wunderlist</title>
+      <link>https://alahmadiq8.github.io/parser-multi-line-todos-for-wunderlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alahmadiq8.github.io/parser-multi-line-todos-for-wunderlist/</guid>
+      <description></description>
     </item>
     
   </channel>
