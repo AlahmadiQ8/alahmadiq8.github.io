@@ -30,6 +30,16 @@
     </item>
     
     <item>
+      <title>About Me</title>
+      <link>https://alahmadiq8.github.io/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alahmadiq8.github.io/about-me/</guid>
+      <description>What I Do I love creating great web experiences for customers. I am mostly focused on front-end technologies, specifically react and redux. I work closely with UX teams to build front-end applications. I occasionally dabble with backend in nodejs and rails. I also enjoy exploring web animations with GSAP and CSS. I have also previously done a lot of test automation in Python for hardware network devices.
+Before joining Procore, I worked at ElephantDrive, a cloud backup company, as a developer support engineer.</description>
+    </item>
+    
+    <item>
       <title>Connect 4 Game</title>
       <link>https://alahmadiq8.github.io/connect-4-game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
