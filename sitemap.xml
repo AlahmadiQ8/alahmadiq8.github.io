@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alahmadiq8.github.io/posts/today-i-learned-compound-components/</loc>
+    <lastmod>2018-05-31T23:08:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alahmadiq8.github.io/posts/fear-of-looking-stupid/</loc>
     <lastmod>2018-05-21T23:42:10-07:00</lastmod>
   </url>
@@ -38,6 +43,12 @@
   </url>
   
   <url>
+    <loc>https://alahmadiq8.github.io/categories/development/</loc>
+    <lastmod>2018-05-31T23:08:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://alahmadiq8.github.io/work/</loc>
     <lastmod>2018-04-10T21:17:15-07:00</lastmod>
   </url>
@@ -54,7 +65,14 @@
   </url>
   
   <url>
+    <loc>https://alahmadiq8.github.io/tags/react/</loc>
+    <lastmod>2018-05-31T23:08:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://alahmadiq8.github.io/tags/</loc>
+    <lastmod>2018-05-31T23:08:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>React on Mohammad&#39;s Personal Website</title>
+    <link>https://alahmadiq8.github.io/tags/react/</link>
+    <description>Recent content in React on Mohammad&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 May 2018 22:48:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://alahmadiq8.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Today I Learned: Compound Components</title>
+      <link>https://alahmadiq8.github.io/posts/today-i-learned-compound-components/</link>
+      <pubDate>Thu, 31 May 2018 22:48:00 -0700</pubDate>
+      
+      <guid>https://alahmadiq8.github.io/posts/today-i-learned-compound-components/</guid>
+      <description>I rarely enjoy watching talks. However, Ryan Florence’s talk, I recently watched, was one of the most fun talks I watched. He introduces the Compound Component Pattern. It’s the first time I see this pattern and my first thought was on how I wished I learned about it earlier in my career.
+  To learn more about it, I recommend checking out Kent C. Dodds FE Master’s course “Advanced React Components” where he explains the pattern using React 16’s new context API.</description>
+    </item>
+    
+  </channel>
+</rss>
