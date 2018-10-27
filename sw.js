@@ -11,8 +11,8 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("workbox-v3.4.1/workbox-sw.js");
-workbox.setConfig({modulePathPrefix: "workbox-v3.4.1"});
+importScripts("workbox-v3.6.3/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "workbox-v3.6.3"});
 
 workbox.core.setCacheNameDetails({prefix: "gatsby-plugin-offline"});
 
@@ -26,47 +26,47 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-d1019a10edf0b49ed4f7.js"
+    "url": "webpack-runtime-d04c98e6620535ffc4e9.js"
   },
   {
-    "url": "app-2fb5ab70d0c06766ac54.js"
+    "url": "app-4464f79f536c627ba40d.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-5423472618b9dae144ee.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-01c4858284d482bc04b9.js"
   },
   {
     "url": "index.html",
-    "revision": "671dab49ebf4b0fccbd2908491d3958a"
+    "revision": "e7238d5652c72f35cb136db0f7a7b83b"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "dd8dd486d2d89be0c619dae678746486"
+    "revision": "1cd57cf68c946f4a5d1923693e53e4e4"
   },
   {
-    "url": "component---src-pages-index-js-6a215ad87727959d8526.js"
+    "url": "component---src-pages-index-js-ac734d4f3f8fe6cf9adb.js"
   },
   {
-    "url": "0-733745a3ab952f826015.js"
+    "url": "0-ad9e669e7e25efd86d6a.js"
   },
   {
-    "url": "2-df0493f5365509a1d90b.js"
+    "url": "2-7c7685ae36da4eff2ce9.js"
   },
   {
-    "url": "11-5547a1ef3c5d3bfaa44d.js"
+    "url": "11-1bd44f881ce35d7f4a50.js"
   },
   {
-    "url": "1-77ab863a538f160bfa60.js"
+    "url": "1-384da0d62561ce86f674.js"
   },
   {
-    "url": "static/d/995/path---index-6a9-hgIoG3RZ3NpzHHeFV6D0nauQ60.json",
-    "revision": "d4c042a380b0c983caa749503384e15d"
+    "url": "static/d/19/path---index-6a9-RkpXPkyN2EdR7bACNlShCewSKQk.json",
+    "revision": "e346715b9d2391e8d7346f66fdec4b67"
   },
   {
-    "url": "component---src-pages-404-js-2fd924ac0d5a855e3317.js"
+    "url": "component---src-pages-404-js-8676bfbe27a4ee49130d.js"
   },
   {
-    "url": "static/d/233/path---404-html-516-62a-5y7klHJdP68YGlHQZt3Z1kXG8w.json",
-    "revision": "a185bfb6f7053627dc11364d08dbaabb"
+    "url": "static/d/47/path---404-html-516-62a-6ADEpTcgX1EKzANV6ULXH6omY.json",
+    "revision": "33225d42fc43e6d849463efb1b537f5f"
   },
   {
     "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json",
