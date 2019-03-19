@@ -35,12 +35,12 @@
 
     <main class="px-2 px-sm-3 px-md-4 px-lg-7 py-5 py-md-7 w-100">
     <header class="single-post__header mb-md-6 mb-5">
-  <h1 class="pb-2">New Year Better Me</h1>
+  <h1 class="pb-2">Common Code Smells - Chapter 17 - Clean Code, Robert Martin</h1>
   <div class="d-flex flex-sm-row flex-column align-items-md-center align-items-center justify-content-md-start justify-content-center">
     <div class="tag-meta d-flex mr-3">
       <div class="mr-3">
         <svg height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M13 2h-1v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H6v1.5c0 .28-.22.5-.5.5h-2c-.28 0-.5-.22-.5-.5V2H2c-.55 0-1 .45-1 1v11c0 .55.45 1 1 1h11c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 12H2V5h11v9zM5 3H4V1h1v2zm6 0h-1V1h1v2zM6 7H5V6h1v1zm2 0H7V6h1v1zm2 0H9V6h1v1zm2 0h-1V6h1v1zM4 9H3V8h1v1zm2 0H5V8h1v1zm2 0H7V8h1v1zm2 0H9V8h1v1zm2 0h-1V8h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1zm2 0h-1v-1h1v1zm-8 2H3v-1h1v1zm2 0H5v-1h1v1zm2 0H7v-1h1v1zm2 0H9v-1h1v1z"></path></svg>
-        <span>Feb 20, 2019</span>
+        <span>Dec 4, 2018</span>
       </div>
       <div>
         <svg height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 16"><path fill-rule="evenodd" d="M8 8h3v2H7c-.55 0-1-.45-1-1V4h2v4zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
@@ -48,57 +48,59 @@
       </div>
     </div>
     
-    <div class="tags">
-      <svg height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 28"><path xmlns="http://www.w3.org/2000/svg" d="M7 7c0-1.109-.891-2-2-2s-2 .891-2 2 .891 2 2 2 2-.891 2-2zm16.672 9c0 .531-.219 1.047-.578 1.406l-7.672 7.688c-.375.359-.891.578-1.422.578s-1.047-.219-1.406-.578L1.422 13.906C.625 13.125 0 11.609 0 10.5V4c0-1.094.906-2 2-2h6.5c1.109 0 2.625.625 3.422 1.422l11.172 11.156c.359.375.578.891.578 1.422zm6 0c0 .531-.219 1.047-.578 1.406l-7.672 7.688a2.08 2.08 0 0 1-1.422.578c-.812 0-1.219-.375-1.75-.922l7.344-7.344c.359-.359.578-.875.578-1.406s-.219-1.047-.578-1.422L14.422 3.422C13.625 2.625 12.11 2 11 2h3.5c1.109 0 2.625.625 3.422 1.422l11.172 11.156c.359.375.578.891.578 1.422z"/></svg>
-      
-      <a href="#" class="badge">productivity</a>
-      
-      <a href="#" class="badge">personal</a>
-      
-    </div>
-    
   </div>
 </header>
 <article class="single-post">
-<p>Inspired by <a href="https://www.barbarianmeetscoding.com/newsletter/2019-01-04-goodbye-2018-hello-2019-and-of-wizards-who-use-vim/">this awesome post</a>, I want to take this time to reflect on my life goals and what I hope to accomplish by the end of the year.</p>
-<p>2018 was a wonderful year where I have been able to grow a lot personally and professedly. I was in Santa Barbara for my last gig. During my time I have made lifelong friendships, explored various hobbies, and even tried new things outside of my comfort zone.</p>
-<p>I want to take this space to jot down my goals for this year. I have a few big projects that will push my boundaries this year in hopes to help me grow as a person.</p>
-<h1>Create a niche website that delivers value</h1>
-<p>I have entrepreneurial dreams and as a practice and first steps, I want to build a niche website. I expect fully to make tons of mistakes but that is how I’ll learn and grow. This will be the biggest projects this year. Through this project, I hope to learn the following:</p>
+<p><em>This is a personal wiki notes that I use for own reference.</em></p>
+<p>A list of common code smells to look out for. The information below are from Clean Code by Robert C. Martin.</p>
 <ul>
-<li>Learn more about product management</li>
-<li>Make me a better web developer</li>
-<li>Learn to delegate responsibilities and not do everything myself</li>
-<li>Solves a real-world problem</li>
-</ul>
-<h1>Complete reading my booklist</h1>
-<p>I want to develop the habit of reading books more rather than scrolling through my blog feeds. This is a really tough one because nonfiction can be very dry and boring. Blogs, on the other hand, are intentionally click-baity, appeals to our emotion, and take less mental energy. But they can easily be a <a href="https://www.barbarianmeetscoding.com/newsletter/2019-01-25-typescript-explosion-procrastination-and-wizards-use-vim/#reading-blogs-as-a-form-of-procrastination">form of procrastination</a>. It's also hard to ingrain the information in my head. Reading books, on the other hand, has a much better return for my time and information stick much longer.</p>
-<p>Here are the list of books I aim to finish this year</p>
+<li><a href="#environment">Environment</a></li>
+<li><a href="#functions">Functions</a></li>
+<li><a href="#general">General</a>
 <ul>
-<li>The Effective Engineer</li>
-<li>The 4 hour workweek</li>
-<li>The E-Myth Revisited</li>
-<li>The Lean Startup</li>
-</ul>
-<p>Besides the obvious benefits of reading, I hope to achieve the following goals:</p>
-<ul>
-<li>Learn more about entrepreneurship</li>
-<li>Get better at removing distractions. Unlike reading articles, books require a longer attention span. That means I’d have to kill all unnecessary distractions like the following:
-<ul>
-<li>Being away from my phone</li>
-<li>Social media: Yes I have a social media addiction problem. I’m a social media whore. I am currently adopting a less aggressive version of <a href="https://www.barbarianmeetscoding.com/blog/2018/10/05/how-to-be-more-productive-and-have-a-happier-life-in-5-easy-steps">this guy</a> by setting timers on my social media phone apps.</li>
+<li><a href="#g5-duplication">G5: Duplication</a></li>
+<li><a href="#g6-code-at-wrong-level-of-abstraction">G6: Code at Wrong Level of Abstraction</a></li>
+<li><a href="#g7-base-classes-depending-on-their-derivatives">G7: Base Classes Depending on Their Derivatives</a></li>
+<li><a href="#g8-too-much-information">G8: Too Much Information</a></li>
+<li><a href="#g9-dead-code">G9: Dead Code</a></li>
+<li><a href="#g10-vertical-separation">G10: Vertical Separation</a></li>
+<li><a href="#g11-inconsistency">G11: Inconsistency</a></li>
 </ul>
 </li>
 </ul>
-<h1>Travel More</h1>
-<p>After my recent trip to Barcelona with my family, I realized how much I missed out on traveling. My trip expanded my horizon beyond the Southern California bubble. This year, my goal is to save money for traveling.</p>
-<h1>Replace Solo activities with Social Experiences</h1>
-<p>By solo activities I mean Netflix and video games. I want to replace those with more lasting memory activities like hanging out with family and friends.</p>
+<h1>Environment</h1>
 <ul>
-<li>Strengthens my bond with my beloved ones. After all, I am an emotional human being and selfishly in need of a support system.</li>
-<li>Improve my communication skills.</li>
-<li>Expand my luck. Who knows, I may meet my soulmate or my future cofounder 😉.</li>
+<li>E1: Build Requires More Than One Step.</li>
+<li>E2: Tests Require More Than One Step.</li>
 </ul>
+<h1>Functions</h1>
+<ul>
+<li>F1: Too Many Arguments</li>
+<li>F2: Output Arguments</li>
+<li>F3: Flag Arguments</li>
+<li>F4: Dead Function</li>
+</ul>
+<h1>General</h1>
+<h2>G5: Duplication</h2>
+<blockquote>
+<p>Still more subtle are the modules that have similar algorithms, but that don’t share similar lines of code. This is still duplication and should be addressed by using the TEMPLATE METHOD or STRATEGY pattern.</p>
+</blockquote>
+<h2>G6: Code at Wrong Level of Abstraction</h2>
+<h2>G7: Base Classes Depending on Their Derivatives</h2>
+<h2>G8: Too Much Information</h2>
+<h2>G9: Dead Code</h2>
+<blockquote>
+<p>Dead code is code that isn’t executed. You find it in the body of an if statement that checks for a condition that can’t happen. You find it in the catch block of a try that never throws. You find it in little utility methods that are never called or switch/case conditions that never occur.</p>
+</blockquote>
+<h2>G10: Vertical Separation</h2>
+<blockquote>
+<p>Variables and function should be defined close to where they are used. Local variables should be declared just above their first usage and should have a small vertical scope. We don’t want local variables declared hundreds of lines distant from their usages.</p>
+<p>Private functions should be defined just below their first usage. Private functions belong to the scope of the whole class, but we’d still like to limit the vertical distance between the invocations and definitions. Finding a private function should just be a matter of scanning downward from the first usage.</p>
+</blockquote>
+<h2>G11: Inconsistency</h2>
+<blockquote>
+<p>f you do something a certain way, do all similar things in the same way. This goes back to the <strong>principle of least surprise</strong>. Be careful with the conventions you choose, and once chosen, be careful to continue to follow them.</p>
+</blockquote>
 
 </article>
 
