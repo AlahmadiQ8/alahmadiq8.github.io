@@ -77,36 +77,36 @@
 </ul>
 </li>
 </ul>
-<h1>Environment</h1>
+<h1 id="environment">Environment</h1>
 <ul>
 <li>E1: Build Requires More Than One Step.</li>
 <li>E2: Tests Require More Than One Step.</li>
 </ul>
-<h1>Functions</h1>
+<h1 id="functions">Functions</h1>
 <ul>
 <li>F1: Too Many Arguments</li>
 <li>F2: Output Arguments</li>
 <li>F3: Flag Arguments</li>
 <li>F4: Dead Function</li>
 </ul>
-<h1>General</h1>
-<h2>G5: Duplication</h2>
+<h1 id="general">General</h1>
+<h2 id="g5%3A-duplication">G5: Duplication</h2>
 <blockquote>
 <p>Still more subtle are the modules that have similar algorithms, but that don’t share similar lines of code. This is still duplication and should be addressed by using the TEMPLATE METHOD or STRATEGY pattern.</p>
 </blockquote>
-<h2>G6: Code at Wrong Level of Abstraction</h2>
-<h2>G7: Base Classes Depending on Their Derivatives</h2>
-<h2>G8: Too Much Information</h2>
-<h2>G9: Dead Code</h2>
+<h2 id="g6%3A-code-at-wrong-level-of-abstraction">G6: Code at Wrong Level of Abstraction</h2>
+<h2 id="g7%3A-base-classes-depending-on-their-derivatives">G7: Base Classes Depending on Their Derivatives</h2>
+<h2 id="g8%3A-too-much-information">G8: Too Much Information</h2>
+<h2 id="g9%3A-dead-code">G9: Dead Code</h2>
 <blockquote>
 <p>Dead code is code that isn’t executed. You find it in the body of an if statement that checks for a condition that can’t happen. You find it in the catch block of a try that never throws. You find it in little utility methods that are never called or switch/case conditions that never occur.</p>
 </blockquote>
-<h2>G10: Vertical Separation</h2>
+<h2 id="g10%3A-vertical-separation">G10: Vertical Separation</h2>
 <blockquote>
 <p>Variables and function should be defined close to where they are used. Local variables should be declared just above their first usage and should have a small vertical scope. We don’t want local variables declared hundreds of lines distant from their usages.</p>
 <p>Private functions should be defined just below their first usage. Private functions belong to the scope of the whole class, but we’d still like to limit the vertical distance between the invocations and definitions. Finding a private function should just be a matter of scanning downward from the first usage.</p>
 </blockquote>
-<h2>G11: Inconsistency</h2>
+<h2 id="g11%3A-inconsistency">G11: Inconsistency</h2>
 <blockquote>
 <p>f you do something a certain way, do all similar things in the same way. This goes back to the <strong>principle of least surprise</strong>. Be careful with the conventions you choose, and once chosen, be careful to continue to follow them.</p>
 </blockquote>
