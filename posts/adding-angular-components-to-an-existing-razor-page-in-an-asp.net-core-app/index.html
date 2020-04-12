@@ -69,6 +69,9 @@
   </div>
 </header>
 <article class="single-post">
+<blockquote>
+<p><strong>Update (Mar 17, 2020):</strong> I found out that you can use the tag helper <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.mvc.taghelpers.scripttaghelper.srcinclude?view=aspnetcore-3.1#Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper_SrcInclude">srcInclude</a> that enables you to use glob patterns such as this: <code>&lt;script asp-src-include&quot;~/app.*.js&quot;&gt;&lt;/script&gt;</code>. Hence, my lengthy hacky way below is unnecessary unless you're deploying hashed assets to a CDN.</p>
+</blockquote>
 <!-- omit in toc -->
 <h1 id="content">Content</h1>
 <ul>
