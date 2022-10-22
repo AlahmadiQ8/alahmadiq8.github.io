@@ -9,6 +9,11 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
+
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
     steps:
       - uses: actions/checkout@v3
         with:
