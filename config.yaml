@@ -1,7 +1,7 @@
 baseURL: https://example.com
 languageCode: en-us
 defaultContentLanguage: en
-title: Cupper
+title: Momonet
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
@@ -17,8 +17,8 @@ imaging:
   quality: 99
 
 params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
+  description: My public space where I blog about programming, business, and career development.
+  homeMetaContent: My public space where I blog about programming, business, and career development.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
@@ -30,7 +30,7 @@ params:
   defaultDarkTheme: false
   moveFooterToHeader: false
   # navTitleText: Cupper Theme
-  logoAlt: An alternative text description of the logo
+  logoAlt: Momonet - Mohammad Alahmadi
   customCss:
     - css/custom_01.css
     - css/custom_02.css
@@ -43,18 +43,15 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
-      url: /post/
+    - name: Resume
+      url: https://docs.google.com/document/d/1689aQVZAw-3qg6mBAhuCOn8rRPb6kOrsmVfUkOTcHLc/edit?usp=sharing
       weight: 2
     - name: Tags
       url: /tags/
       weight: 3
-    - name: About
-      url: /about/
-      weight: 4
     - name: RSS
       url: /index.xml
-      weight: 5
+      weight: 4
 
 markup:
   defaultMarkdownHandler: goldmark

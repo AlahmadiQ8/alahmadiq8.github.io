@@ -2,12 +2,8 @@
 title: "Home"
 ---
 
-Welcome to **Cupper**: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project. Here are some of its features:
+Hi, I'm Mohammad Alahmadi. I'm a developer from Kuwait and currently employed at Weyay Bank. Before that, I worked at Microsoft, Capital One, and Procore Technologies. I enjoy building full stack apps, weight lifting, and POI spinning.
 
-{{< ticks >}}
-* Screen reader and keyboard accessible
-* Responsive
-* Numerous shortcodes
-* Toggleable dark theme
-* Toggleable table of contents per blog post
-{{< /ticks >}}
+---
+
+**Links:** [Linkedin](https://www.linkedin.com/in/mohammad91/) | [GitHub](https://github.com/AlahmadiQ8) | [StackOverflow](https://stackoverflow.com/users/5431968/mmohammad) | [Twitter](https://twitter.com/MAlahmadiQ8)
