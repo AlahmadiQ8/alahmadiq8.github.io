@@ -6,15 +6,16 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
+permisions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  packages: write
+  repository-projects: read
+  idToken: write
+
 jobs:
-  permisions:
-    actions: write
-    checks: write
-    contents: write
-    deployments: write
-    packages: write
-    repository-projects: read
-    idToken: write
   deploy:
     runs-on: ubuntu-22.04
     steps:
