@@ -11,15 +11,15 @@ taxonomies:
   tag: tags
 
 permalinks:
-  post: /:filename/
+  post: /:title/
 
 imaging:
   quality: 99
 
 params:
-  description: My public space where I blog about programming, business, and career development.
-  homeMetaContent: My public space where I blog about programming, business, and career development.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  description: My public space where I blog about programming, and career development.
+  homeMetaContent: My public space where I blog about programming, and career development.
+  footer: "[Linkedin](https://www.linkedin.com/in/mohammad91/) | [GitHub](https://github.com/AlahmadiQ8) | [StackOverflow](https://stackoverflow.com/users/5431968/mmohammad) | [Twitter](https://twitter.com/MAlahmadiQ8)"
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   codePenUser: someUser
@@ -46,12 +46,15 @@ menu:
     - name: Resume
       url: https://docs.google.com/document/d/1689aQVZAw-3qg6mBAhuCOn8rRPb6kOrsmVfUkOTcHLc/edit?usp=sharing
       weight: 2
+    - name: Blog
+      url: /post/
+      weight: 3
     - name: Tags
       url: /tags/
-      weight: 3
+      weight: 4
     - name: RSS
       url: /index.xml
-      weight: 4
+      weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark
