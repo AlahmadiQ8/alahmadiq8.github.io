@@ -1,7 +1,7 @@
 ---
 date: 2020-08-04T21:05:05-05:00
 draft: false
-lastmod: 2022-10-22T00:00:00-00:00
+# lastmod: 2022-10-22T00:00:00-00:00
 publishdate: 2022-10-22T00:00:00-00:00
 tags:
 - summaries
