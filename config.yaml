@@ -44,7 +44,7 @@ menu:
       url: /
       weight: 1
     - name: Resume
-      url: https://docs.google.com/document/d/1689aQVZAw-3qg6mBAhuCOn8rRPb6kOrsmVfUkOTcHLc/edit?usp=sharing
+      url: https://docs.google.com/document/d/1d5MUdm_CwegEFVpUBHoVmTc95fzp91RzTTRisXxMiCM/edit?usp=sharing
       weight: 2
     - name: Blog
       url: /post/
