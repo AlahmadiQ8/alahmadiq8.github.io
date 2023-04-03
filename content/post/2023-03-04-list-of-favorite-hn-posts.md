@@ -14,11 +14,12 @@ toc: true
 
 * [Ask HN: What companies have publicly available handbooks?](https://news.ycombinator.com/item?id=34959242)
 * [Enterprise Ready SaaS Feature Guides](https://news.ycombinator.com/item?id=13015544)
+* [Ask HN: What books helped you in your entrepreneurship journey?](https://news.ycombinator.com/item?id=35168647)
 
 ## Programming
 
 * [Ask HN: Best examples of software documentation that you've come across?](https://news.ycombinator.com/item?id=34820382)
-
+* [Ask HN: Inherited the worst code and tech team I have ever seen. How to fix it?](https://news.ycombinator.com/item?id=32883596)
 ## Companies To Keep An Eye On
 
 * [Launch HN: Defer (YC W23) – Zero-infrastructure background jobs for Node.js](https://news.ycombinator.com/item?id=35096366)
