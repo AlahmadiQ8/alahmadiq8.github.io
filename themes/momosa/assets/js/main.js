@@ -1,5 +1,4 @@
 let isHomePage = window.location.pathname === '/'
-document.getElementById("header-ref")
 let headerRef = document.getElementById("header-ref")
 let isInitial = true
 

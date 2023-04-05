@@ -9,13 +9,12 @@
         </div>
     </div>
     <div class="relative">
-        {{ partial "header/header.html" }}
+        {{ partial "header/header.html" . }}
         <main>
         {{- block "main" . }}{{- end }}
         </main>
     </div>
     {{- partial "footer.html" . -}}
-
     {{ $mainJs := resources.Get "js/main.js" | fingerprint }}
     <script src="{{ $mainJs.RelPermalink }}"></script>
 </body>
