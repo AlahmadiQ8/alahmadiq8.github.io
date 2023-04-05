@@ -1,8 +1,10 @@
 let isHomePage = window.location.pathname === '/'
 let headerRef = document.getElementById("header-ref")
+let avatarRef = document.getElementById("avatar-ref")
 let isInitial = true
 
-let downDelay = document.getElementById("avatar-ref")?.offsetTop ?? 0
+console.log(avatarRef)
+let downDelay = avatarRef?.offsetTop ?? 0
 let upDelay = 64
 
 function setProperty(property, value) {
