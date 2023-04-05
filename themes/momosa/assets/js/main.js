@@ -3,7 +3,6 @@ let headerRef = document.getElementById("header-ref")
 let avatarRef = document.getElementById("avatar-ref")
 let isInitial = true
 
-console.log(avatarRef)
 let downDelay = avatarRef?.offsetTop ?? 0
 let upDelay = 64
 
@@ -98,3 +97,8 @@ function clamp(number, a, b) {
 updateStyles()
 window.addEventListener('scroll', updateStyles, { passive: true })
 window.addEventListener('resize', updateStyles)
+
+
+const myModal = new HystModal({
+  linkAttributeName: "data-hystmodal",
+});

@@ -31,12 +31,6 @@ params:
   moveFooterToHeader: false
   # navTitleText: Cupper Theme
   logoAlt: Momonet - Mohammad Alahmadi
-  customCss:
-    - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
 
 menu:
   nav:
@@ -52,9 +46,6 @@ menu:
     - name: Tags
       url: /tags/
       weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
 
 markup:
   defaultMarkdownHandler: goldmark

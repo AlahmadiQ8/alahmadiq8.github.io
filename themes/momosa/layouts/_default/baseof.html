@@ -15,7 +15,11 @@
         </main>
     </div>
     {{- partial "footer.html" . -}}
+
     {{ $mainJs := resources.Get "js/main.js" | fingerprint }}
+    {{ $modelJs := resources.Get "js/hystmodal.min.js" }}
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="{{ $modelJs.RelPermalink }}"></script>
     <script src="{{ $mainJs.RelPermalink }}"></script>
 </body>
 

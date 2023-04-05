@@ -55,6 +55,9 @@ function updateModeWithoutTransitions() {
   {{ with resources.Get "css/main.css" | postCSS | resources.Fingerprint "md5" }}
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
   {{ end }}
+  {{ with resources.Get "css/hystmodal.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{ end }}
 
   {{ range .Site.Params.customCss }}
     <link rel="stylesheet" href="{{ . | relURL }}">

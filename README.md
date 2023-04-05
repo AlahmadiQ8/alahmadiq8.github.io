@@ -22,3 +22,5 @@
 
 #### [Passing values to partials](https://gohugo.io/functions/dict/#example-using-dict-to-pass-multiple-values-to-a-partial)
 
+
+#### [Front Matter Predefined Variables](https://gohugo.io/content-management/front-matter/#predefined)

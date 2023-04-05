@@ -54,6 +54,7 @@
                 {{ end }}
                 <div class="flex flex-1 justify-end md:justify-center">
                   {{/*  <MobileNavigation class="pointer-events-auto md:hidden" />  */}}
+                  {{partial "header/mobileNavigation.html" . }}
                   {{partial "header/desktopNavigation.html" . }}
                 </div>
                 <div className="flex justify-end md:flex-1">
