@@ -20,6 +20,7 @@
     {{ $modelJs := resources.Get "js/hystmodal.min.js" }}
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <script src="{{ $modelJs.RelPermalink }}"></script>
+    <script src="{{ (resources.Get "js/prism.js").RelPermalink }}"></script>
     <script src="{{ $mainJs.RelPermalink }}"></script>
 </body>
 

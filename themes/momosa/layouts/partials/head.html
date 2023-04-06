@@ -56,8 +56,9 @@ function updateModeWithoutTransitions() {
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
   {{ end }}
   {{ with resources.Get "css/hystmodal.css" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
+  <link rel="stylesheet" href="{{ (resources.Get "css/prism.css").RelPermalink }}">
 
   {{ range .Site.Params.customCss }}
     <link rel="stylesheet" href="{{ . | relURL }}">
