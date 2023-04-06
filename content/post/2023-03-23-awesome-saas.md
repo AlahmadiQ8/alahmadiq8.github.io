@@ -4,7 +4,7 @@ draft: false
 # lastmod: 2022-03-12T00:00:00-00:00
 publishdate: 2023-04-02T21:05:05-05:00
 tags:
-- lists
+- list
 # - entrepreneurship
 title: Awesome SAAS - List of awesome unique Saas products
 # toc: true
