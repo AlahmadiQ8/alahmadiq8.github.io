@@ -90,8 +90,8 @@ module.exports = {
           color: 'var(--tw-prose-body)',
           lineHeight: theme('lineHeight.7'),
           '> *': {
-            marginTop: theme('spacing.10'),
-            marginBottom: theme('spacing.10'),
+            marginTop: theme('spacing.4'),
+            marginBottom: theme('spacing.4'),
           },
           p: {
             marginTop: theme('spacing.7'),
@@ -189,8 +189,8 @@ module.exports = {
             paddingLeft: theme('spacing.6'),
           },
           li: {
-            marginTop: theme('spacing.6'),
-            marginBottom: theme('spacing.6'),
+            marginTop: theme('spacing[2.5]'),
+            marginBottom: theme('spacing[2.5]'),
             paddingLeft: theme('spacing[3.5]'),
           },
           'li::marker': {
