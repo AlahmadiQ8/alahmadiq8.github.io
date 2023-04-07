@@ -23,12 +23,32 @@ It's
 
 ## Job Tracker
 
-## Goals
+### Job Goal Statement
 
-### Keywords
-
+Keywords:
 * Remote friendly
+* Backend
+* Full stack
 * Leadership
 * Cloud
 * Startupy
 * Equity
+
+----------------
+
+backend
+full stack
+---
+window shopping
+job profile worksheet
+---
+job goal statement
+
+I'm looking for two areas
+* a software engineer position with a focus on backend or full stack. While I've worked for large companies such as Microsoft and Capital One, I'm more interested in joining early startups and small companies.
+* Develoepr advocate role are tech product company.
+---
+
+Homework:
+* elevator pitch
+* Goal Profile Worksheet

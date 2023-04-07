@@ -28,3 +28,4 @@ toc: true
 ## Misc
 
 * [Ask HN: What useful physical hobbies there are?](https://news.ycombinator.com/item?id=34960870)
+* [Why I Blog](https://news.ycombinator.com/item?id=35467361)
