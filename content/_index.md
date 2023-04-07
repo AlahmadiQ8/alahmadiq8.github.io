@@ -9,5 +9,6 @@ Hi, I'm Mohammad Alahmadi. I'm a developer from Kuwait and am currently employed
 {{% socialLink href="https://github.com/AlahmadiQ8" icon="github" %}}
 {{% socialLink href="https://www.linkedin.com/in/mohammad91/" icon="linkedin" %}}
 {{% socialLink href="https://www.instagram.com/malahmadiq8/" icon="instagram" %}}
-{{% socialLink href="#" icon="twitter" %}}
+{{% socialLink href="mailto:mmohammadq8@outlook.com" icon="email" %}}
+<!-- {{% socialLink href="#" icon="twitter" %}} -->
 {{< /socialContainer >}}
