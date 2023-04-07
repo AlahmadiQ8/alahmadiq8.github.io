@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div ref={ref} class="sm:px-8 mt-16 sm:mt-32">
+  <div class="mx-auto max-w-7xl lg:px-8">
+    <div class="relative px-4 sm:px-8 lg:px-12">
+      <div class="mx-auto max-w-2xl lg:max-w-5xl">
+        <header class="max-w-2xl">
+          <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            {{ .Title }}
+          </h1>
+          <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            {{ .Content }}
+          </p>
+        </header>
+        {{/*  articles listing  */}}
+        <div class="mt-16 sm:mt-20 flex space-x-4">
+          {{ range .Data.Terms.Alphabetical }}
+          <a href="{{ .Page.RelPermalink }}" class="rounded-full px-3.5 py-2 text-sm font-semibold shadow-sm ring-1 ring-inset ring-gray-800 dark:ring-gray-200 hover:ring-teal-500 dark:hover:ring-teal-500 text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
+            {{ printf "%s (%d)" .Page.Title .Count }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

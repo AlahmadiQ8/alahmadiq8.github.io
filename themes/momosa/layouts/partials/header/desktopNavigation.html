@@ -1,0 +1,18 @@
+<nav class="pointer-events-auto hidden md:block">
+  <ul class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+    {{ $current := . }}
+    {{ range .Site.Menus.nav }}
+    {{ $active := $current.IsMenuCurrent .Menu . }}
+    {{ $active = or $active (eq .Name $current.Title) }}
+    {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "post")) }}
+    {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+    {{ $classes := "hover:text-teal-500 dark:hover:text-teal-400"  }}
+    {{ if $active }}
+      {{ $classes = "text-teal-500 dark:text-teal-400" }}
+    {{ end }}
+    <a href="{{ .URL }}" {{ if $active }}aria-current="page"{{ end }} class="relative block px-3 py-2 transition {{ $classes }}">
+      {{ .Name }}
+    </a>
+    {{ end }}
+  </ul>
+</nav>

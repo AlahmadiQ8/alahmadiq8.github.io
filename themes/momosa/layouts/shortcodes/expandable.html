@@ -1,0 +1,19 @@
+{{ $textColor := "text-teal-500"}}
+<!-- What is term -->
+<div class="transition">
+  <!-- header -->
+  {{ $level := default (.Get "level") "2" }}
+  <div class="{{ $textColor }} accordion-header cursor-pointer transition flex space-x-5 px-5 items-center">
+    <svg stroke="currentColor" class="h-5 w-5" aria-hidden="true" focusable="false" viewBox="0 0 70.866142 70.866141">
+      <g transform="translate(0 -981.5)">
+        <rect style="stroke-width:0;fill:currentColor" ry="5" height="60" width="9.8985" y="987.36" x="30.051" class="up-strut" />
+        <rect style="stroke-width:0;fill:currentColor" ry="5" height="10" width="60" y="1012.4" x="5"/>
+      </g>
+    </svg>
+    <h{{ $level }} class="my-0 {{ $textColor }}">{{ .Get "label" | default "More info" }}</h{{ $level }}>
+  </div>
+  <!-- Content -->
+  <div class="accordion-content px-5 pt-0 overflow-hidden max-h-0">
+    {{ .Inner }}
+  </div>
+</div>

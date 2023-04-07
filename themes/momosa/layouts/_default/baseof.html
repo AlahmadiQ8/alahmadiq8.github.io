@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="h-full antialiased" lang="en">
+{{- partial "head.html" . -}}
+
+<body class="flex h-full flex-col bg-zinc-50 dark:bg-black">
+    <div class="fixed inset-0 flex justify-center sm:px-8">
+        <div class="flex w-full max-w-7xl lg:px-8">
+            <div class="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20"></div>
+        </div>
+    </div>
+    <div class="relative">
+        {{ partial "header/header.html" . }}
+        <main>
+        {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </div>
+
+    {{ $mainJs := resources.Get "js/main.js" | fingerprint }}
+    {{ $modelJs := resources.Get "js/hystmodal.min.js" }}
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="{{ $modelJs.RelPermalink }}"></script>
+    <script src="{{ (resources.Get "js/prism.js").RelPermalink }}"></script>
+    <script src="{{ $mainJs.RelPermalink }}"></script>
+</body>
+
+</html>

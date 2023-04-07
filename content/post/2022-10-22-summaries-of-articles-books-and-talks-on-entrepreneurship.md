@@ -10,7 +10,7 @@ title: Summaries of Articles, Books and Talks on Entrepreneurship
 toc: false
 ---
 
-{{< expandable label="How to Get Startup Ideas - Jared Friedman" level="2" >}}
+{{% expandable label="How to Get Startup Ideas - Jared Friedman" level="2" %}}
 
 https://www.youtube.com/watch?v=uvw-u99yj8w
 
@@ -42,9 +42,9 @@ Starting with a solution instead of a problem.
   9. Ask people you know for problems they want solved
   10. Look for industries that seem broken
 
-{{< /expandable >}}
+{{% /expandable %}}
 
-{{< expandable label="How To Get Startup Ideas - Paul Graham" level="2" >}}
+{{% expandable label="How To Get Startup Ideas - Paul Graham" level="2" %}}
 
 http://paulgraham.com/startupideas.html
 
@@ -93,4 +93,4 @@ http://paulgraham.com/startupideas.html
 * If you do that, you get bad ones that sound dangerously plausible.
 * It takes time to come across situations where you notice something missing. And often these gaps won't seem to be ideas for companies, just things that would be interesting to build. Which is why it's good to have the time and the inclination to build things just because they're interesting.
 
-{{< /expandable >}}
+{{% /expandable %}}
