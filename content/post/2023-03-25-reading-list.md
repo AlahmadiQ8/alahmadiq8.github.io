@@ -9,7 +9,7 @@ title: My Reading List
 toc: true
 ---
 
-# Entreprenuership
+## Entreprenuership
 
 * [Getting a job as an engineering executive](https://lethain.com/getting-engineering-executive-job/?utm_source=newsletter&utm_medium=email&utm_campaign=devopsbulletin&utm_content=devopsbulletin)
 * [Staff Engineer: Leadership beyond the management track](https://lethain.gumroad.com/l/staff-engineer)
