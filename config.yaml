@@ -2,7 +2,7 @@ baseURL: https://alahmadiq8.github.io
 languageCode: en-us
 defaultContentLanguage: en
 title: Momonet
-theme: cupper-hugo-theme
+theme: momosa
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
 enableGitInfo: true
