@@ -37,11 +37,11 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Resume
-      url: https://docs.google.com/document/d/1d5MUdm_CwegEFVpUBHoVmTc95fzp91RzTTRisXxMiCM/edit?usp=sharing
-      weight: 2
     - name: Blog
       url: /post/
+      weight: 2
+    - name: Resume
+      url: https://docs.google.com/document/d/1d5MUdm_CwegEFVpUBHoVmTc95fzp91RzTTRisXxMiCM/edit?usp=sharing
       weight: 3
     - name: Tags
       url: /tags/
