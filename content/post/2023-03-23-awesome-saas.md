@@ -20,3 +20,9 @@ title: Awesome SAAS - List of awesome unique Saas products
 
 * Awesome product that I see myself using for many tasks. Similar to Azure Logic Apps and Microsoft Power automate.
 * Compeling video.
+
+## [cal.com](https://cal.com)
+
+* Awesome landing page.
+* Public [company handbook](https://handbook.cal.com/).
+* Commitement to opensource.
