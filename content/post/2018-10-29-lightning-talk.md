@@ -4,7 +4,7 @@ draft: false
 # lastmod: 2022-10-22T00:00:00-00:00
 publishdate: 2018-10-29T00:00:00-00:00
 tags:
-- reflections
+- talks
 title: My Lightning Talk at Procore - Intersection Observer API
 toc: false
 ---
