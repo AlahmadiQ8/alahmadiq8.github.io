@@ -25,4 +25,4 @@ title: Awesome SAAS - List of awesome unique Saas products
 
 * Awesome landing page.
 * Public [company handbook](https://handbook.cal.com/).
-* Commitement to opensource.
+* [Commitement to opensource](https://cal.com/blog/open-startup).
