@@ -15,3 +15,4 @@ title: Awesome Blog Posts - List of awesome blog posts
 # Engineering Culture
 
 * [Ditch the Template: Incident Write-ups They Want to Read](https://blog.container-solutions.com/incident-write-ups-they-want-to-read)
+* [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
