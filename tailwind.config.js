@@ -236,8 +236,8 @@ module.exports = {
 
           // Horizontal rules
           hr: {
-            marginTop: theme('spacing.20'),
-            marginBottom: theme('spacing.20'),
+            marginTop: theme('spacing.12'),
+            marginBottom: theme('spacing.12'),
             borderTopWidth: '1px',
             borderColor: 'var(--tw-prose-hr)',
             '@screen lg': {

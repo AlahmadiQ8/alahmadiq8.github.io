@@ -57,3 +57,25 @@ toc: true
 
 * [Ask HN: What useful physical hobbies there are?](https://news.ycombinator.com/item?id=34960870)
 * [Why I Blog](https://news.ycombinator.com/item?id=35467361)
+
+---
+
+## Awesome Saas
+
+### [snaplet](https://www.snaplet.dev/)
+
+* Amazing documentation.
+* Unique value proposition targeting most developers.
+* Clear illustration making me understand exactly what problem product solves.
+
+### [pipedream](https://pipedream.com/)
+
+* Awesome product that I see myself using for many tasks. Similar to Azure Logic Apps and Microsoft Power automate.
+* Compeling video.
+
+### [cal.com](https://cal.com)
+
+* Awesome landing page.
+* Public [company handbook](https://handbook.cal.com/).
+* [Commitement to opensource](https://cal.com/blog/open-startup).
+* Awesome [README.md](https://github.com/calcom/cal.com#integrations).
