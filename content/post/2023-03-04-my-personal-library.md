@@ -79,3 +79,17 @@ toc: true
 * Public [company handbook](https://handbook.cal.com/).
 * [Commitement to opensource](https://cal.com/blog/open-startup).
 * Awesome [README.md](https://github.com/calcom/cal.com#integrations).
+
+### [airplane.dev](https://www.airplane.dev/)
+
+* Developer infrastructure for internal tools.
+* A space I'm interested in.
+* Something I might use for work.
+* Support cron jobs.
+* Similar to [retool.com](https://retool.com/).
+
+---
+
+## Talks
+
+* [Spring + Kotlin = Modern + Reactive + Productive by James Ward , Josh Long](https://www.youtube.com/watch?v=2MYSLP2vgps)
