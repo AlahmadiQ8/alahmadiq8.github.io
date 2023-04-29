@@ -18,6 +18,15 @@ toc: true
 * [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 * [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 
+### Softare Craftmentship
+
+* [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
+* [How Kubernetes And Kafka Will Get You Fired](https://medium.com/@jankammerath/how-kubernetes-and-kafka-will-get-you-fired-a6dccbd36c77)
+
+### Misc
+
+* [Willingness to look stupid](https://danluu.com/look-stupid/)
+
 ---
 
 ## Reading List
@@ -87,6 +96,10 @@ toc: true
 * Something I might use for work.
 * Support cron jobs.
 * Similar to [retool.com](https://retool.com/).
+
+### [Bullet Train](https://bullettrain.co/)
+
+* Framework built on top of Rails.
 
 ---
 
