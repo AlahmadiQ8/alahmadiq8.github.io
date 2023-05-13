@@ -17,6 +17,14 @@ toc: true
 * [Ditch the Template: Incident Write-ups They Want to Read](https://blog.container-solutions.com/incident-write-ups-they-want-to-read)
 * [Maximizing Developer Effectiveness](https://martinfowler.com/articles/developer-effectiveness.html)
 * [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
+* [Engineering Ladder](https://github.com/artsy/README/blob/main/careers/ladder.md)
+* [CircleCI Engineering Competency Matrix](https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit?usp=sharing)
+
+### Career
+
+* [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
+* [Get your work recognized: write a brag document](https://jvns.ca/blog/brag-documents/)
+* [The D.E.N.N.I.S. system: Resume tips for Senior Devs](https://jacobbartlett.substack.com/p/the-dennis-system-cvs-tips-for-senior)
 
 ### Softare Craftmentship
 
@@ -37,10 +45,6 @@ toc: true
 * [Staff Engineer: Leadership beyond the management track](https://lethain.gumroad.com/l/staff-engineer)
 * [The Saas Playbook](https://saasplaybook.com/)
 * [Founding Sales](https://www.foundingsales.com/)
-
-### Career
-
-* [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 
 ---
 
