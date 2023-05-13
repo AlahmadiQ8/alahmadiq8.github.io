@@ -2,10 +2,10 @@
 {{ $level := default (.Get "level") "2" }}
 
 
-<details class="group open:bg-white dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg">
-  <summary class="text-sm leading-6 text-slate-900 dark:text-white font-semibold select-none">
+<details class="group open:bg-white dark:open:bg-zinc-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg">
+  <summary class="text-sm leading-6 text-zinc-900 dark:text-white font-semibold select-none">
     <h{{ $level }} class="my-0 {{ $textColor }}">{{ .Get "label" | default "More info" }}</h{{ $level }}>
-    <div class="hidden group-open:block mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+    <div class="hidden group-open:block mt-3 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
       {{ .Inner }}
     </div>
   </summary>
