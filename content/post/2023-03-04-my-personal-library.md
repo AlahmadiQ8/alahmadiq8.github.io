@@ -105,6 +105,10 @@ toc: true
 
 * Framework built on top of Rails.
 
+### [Rowy](https://www.rowy.io/)
+
+* Awesome value proposition
+
 ---
 
 ## Talks
