@@ -25,6 +25,7 @@ toc: true
 * [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 * [Get your work recognized: write a brag document](https://jvns.ca/blog/brag-documents/)
 * [The D.E.N.N.I.S. system: Resume tips for Senior Devs](https://jacobbartlett.substack.com/p/the-dennis-system-cvs-tips-for-senior)
+* [Employer Test - Questions to ask employer](https://github.com/randsleadershipslack/employer-test)
 
 ### Softare Craftmentship
 
