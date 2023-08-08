@@ -19,6 +19,9 @@ toc: true
 * [Questions I'm asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 * [Engineering Ladder](https://github.com/artsy/README/blob/main/careers/ladder.md)
 * [CircleCI Engineering Competency Matrix](https://docs.google.com/spreadsheets/d/131XZCEb8LoXqy79WWrhCX4sBnGhCM1nAIz4feFZJsEo/edit?usp=sharing)
+* [Imaginary Problems Are the Root of Bad Software](https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software)
+* [Right-sizing your technology team](https://www.thoughtworks.com/insights/articles/right-sizing-your-technology-team)
+* [Maximize your tech investments with Engineering Effectiveness](https://www.thoughtworks.com/insights/articles/a-comprehensive-methodology-for-engineering-effectiveness)
 
 ### Career
 
@@ -35,6 +38,7 @@ toc: true
 ### Misc
 
 * [Willingness to look stupid](https://danluu.com/look-stupid/)
+* [Some blogging myths](https://jvns.ca/blog/2023/06/05/some-blogging-myths/)
 
 ---
 
@@ -115,3 +119,12 @@ toc: true
 ## Talks
 
 * [Spring + Kotlin = Modern + Reactive + Productive by James Ward , Josh Long](https://www.youtube.com/watch?v=2MYSLP2vgps)
+
+---
+
+## Authentication
+
+* [ID Token and Access Token: What's the Difference?](https://auth0.com/blog/id-token-access-token-what-is-the-difference/#A-Quick-Recap)
+* [Identity, Claims, & Tokens – An OpenID Connect Primer, Part 1 of 3](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-1)
+* [OIDC in Action – An OpenID Connect Primer, Part 2 of 3](https://developer.okta.com/blog/2017/07/25/oidc-primer-part-2)
+* [What's in a Token? – An OpenID Connect Primer, Part 3 of 3](https://developer.okta.com/blog/2017/08/01/oidc-primer-part-3)
