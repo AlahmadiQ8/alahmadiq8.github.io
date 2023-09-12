@@ -9,8 +9,6 @@ title: My Lightning Talk at Procore - Intersection Observer API
 toc: false
 ---
 
-# First Lightning Talk - Intersection Observer API
-
 I gave a 5-minute lightning talk at [Santa Barbara Javascript Meetup group](https://www.meetup.com/sbjavascript/). It was a fun experience and helped me break the wall of fear from public speaking. Most importantly, I learned about a new api.
 
 {{< tweet user="sbjavascript" id="1046951582049263616" >}}

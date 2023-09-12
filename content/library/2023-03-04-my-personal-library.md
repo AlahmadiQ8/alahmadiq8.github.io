@@ -8,7 +8,10 @@ tags:
 - entrepreneurship
 title: My personal library
 toc: true
+type: posts
 ---
+
+*Need to break this down in separate pages*
 
 ## Blogs
 

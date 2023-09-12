@@ -8,6 +8,7 @@ tags:
 - entrepreneurship
 title: Summaries of Articles, Books and Talks on Entrepreneurship
 toc: false
+type: posts
 ---
 
 {{% expandable label="How to Get Startup Ideas - Jared Friedman" level="2" %}}

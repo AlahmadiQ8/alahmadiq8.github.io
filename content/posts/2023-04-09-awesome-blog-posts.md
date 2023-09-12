@@ -10,7 +10,7 @@ title: Awesome Blog Posts - List of awesome blog posts
 # toc: true
 ---
 
-*Need to figure out a way to consolidate this with [Awesome Blog Posts - List of awesome blog posts]({{< ref "/post/2023-03-04-list-of-favorite-hn-posts.md" >}})*
+*Need to figure out a way to consolidate this with [Awesome Blog Posts - List of awesome blog posts]({{< ref "/posts/2023-03-04-list-of-favorite-hn-posts.md" >}})*
 
 # Engineering Culture
 
