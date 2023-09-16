@@ -138,3 +138,4 @@ type: posts
 
 * [Emerging Architectures for LLM Applications](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/)
 * [AI Canon](https://a16z.com/2023/05/25/ai-canon/)
+* [Lessons from 139 YC AI startups (S23)](https://www.ignorance.ai/p/5-lessons-from-139-yc-ai-startups)
