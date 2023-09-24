@@ -117,6 +117,11 @@ type: posts
 
 * Awesome value proposition
 
+### [TalkNotes](https://talknotes.io/)
+
+* Great landing page
+* Clear value proposition
+
 ---
 
 ## Talks
