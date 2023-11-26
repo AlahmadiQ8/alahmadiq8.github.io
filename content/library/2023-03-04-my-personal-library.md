@@ -25,6 +25,7 @@ type: posts
 * [Imaginary Problems Are the Root of Bad Software](https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software)
 * [Right-sizing your technology team](https://www.thoughtworks.com/insights/articles/right-sizing-your-technology-team)
 * [Maximize your tech investments with Engineering Effectiveness](https://www.thoughtworks.com/insights/articles/a-comprehensive-methodology-for-engineering-effectiveness)
+* [The Startup's CTO's Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md)
 
 ### Career
 
@@ -37,6 +38,7 @@ type: posts
 
 * [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 * [How Kubernetes And Kafka Will Get You Fired](https://medium.com/@jankammerath/how-kubernetes-and-kafka-will-get-you-fired-a6dccbd36c77)
+* [Categorizing Products at Scale | Shopify](https://shopify.engineering/categorizing-products-at-scale)
 
 ### Misc
 
@@ -121,6 +123,43 @@ type: posts
 
 * Great landing page
 * Clear value proposition
+
+### [Zaap](https://www.zaap.ai/)
+
+* Awesome landing page
+* Inspiration for indie hacking and good ui
+
+### [Swiper](https://swiperjs.com/)
+
+* Great JS library to implement swiping widgets
+
+### [canny](https://canny.io/)
+
+* User feedback platform similar to UserVoice
+
+### [Frill](https://frill.co/)
+
+* Another user feedback platform similar to UserVoice
+
+### [onu](https://joinonu.com/)
+
+* Very simple internal tools platform
+
+### [Neon](https://neon.tech/)
+
+* Hosted postgres db
+
+### [Tigger](https://trigger.dev/)
+
+* Background jobs for js
+
+### [Inngest](https://www.inngest.com/)
+
+* Also background jobs for js
+
+### [windmill](https://www.windmill.dev/)
+
+* Internal tools platform
 
 ---
 
