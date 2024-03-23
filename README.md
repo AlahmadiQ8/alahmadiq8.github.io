@@ -1,4 +1,4 @@
-# Source Code For [alahmadiq8.github.com](https://alahmadiq8.github.com)
+# Source Code For [alahmadiq8.github.com](https://alahmadiq8.github.io)
 
 ## Hugo References
 
