@@ -39,6 +39,7 @@ type: posts
 * [End-to-End Encryption in the Browser](https://blog.excalidraw.com/end-to-end-encryption/)
 * [How Kubernetes And Kafka Will Get You Fired](https://medium.com/@jankammerath/how-kubernetes-and-kafka-will-get-you-fired-a6dccbd36c77)
 * [Categorizing Products at Scale | Shopify](https://shopify.engineering/categorizing-products-at-scale)
+* [Design Principles · real-logic/aeron Wiki](https://github.com/real-logic/aeron/wiki/Design-Principles)
 
 ### Misc
 
@@ -66,6 +67,7 @@ type: posts
 * [Enterprise Ready SaaS Feature Guides](https://news.ycombinator.com/item?id=13015544)
 * [Ask HN: What books helped you in your entrepreneurship journey?](https://news.ycombinator.com/item?id=35168647)
 * [Incompetent but Nice](https://news.ycombinator.com/item?id=35344703)
+* [You won't find a technical co-founder](https://news.ycombinator.com/item?id=39902372)
 
 ### Programming
 
