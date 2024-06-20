@@ -3,7 +3,7 @@ title: "Home"
 ---
 
 
-Hi, my name is Mohammad Asad Alahmadi. I'm a developer from Kuwait and currently working at Weyay Bank. Previously, I worked at Microsoft working on Azure Cost Management APIs, Capital One, and Procore Technologies.
+Hi, my name is Mohammad Asad Alahmadi. I'm a tech lead from Kuwait and currently working at Weyay Bank. Previously, I worked at Microsoft working on Azure Cost Management APIs, Capital One, and Procore Technologies.
 
 {{< socialContainer >}}
 {{% socialLink href="https://github.com/AlahmadiQ8" icon="github" %}}
