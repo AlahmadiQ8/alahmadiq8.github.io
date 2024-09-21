@@ -26,6 +26,7 @@ type: posts
 * [Right-sizing your technology team](https://www.thoughtworks.com/insights/articles/right-sizing-your-technology-team)
 * [Maximize your tech investments with Engineering Effectiveness](https://www.thoughtworks.com/insights/articles/a-comprehensive-methodology-for-engineering-effectiveness)
 * [The Startup's CTO's Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md)
+* [How to Build an Engineering Team](https://www.pagerduty.com/resources/learn/how-to-build-an-engineering-team/)
 
 ### Career
 
