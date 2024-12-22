@@ -1,7 +1,6 @@
 ---
 date: 2024-12-22T21:05:05-05:00
 draft: false
-lastmod: 2024-12-22T21:05:05-05:00
 publishdate: 2024-12-22T21:05:05-05:00
 tags:
 - resources
