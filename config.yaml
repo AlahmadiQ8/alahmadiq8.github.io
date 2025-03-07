@@ -5,6 +5,11 @@ theme: "hugo-simple"
 googleAnalytics: UA-123456789-1
 enableGitInfo: true
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+disableDefaultLanguageRedirect: false
+disableLanguages: []
+
 # Generate a nice robots.txt for SEO
 enableRobotsTXT: true
 
