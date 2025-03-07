@@ -8,5 +8,5 @@ tags:
 title: |
  My First Chrome Extension: Stackoverflow Starred Viewer
 toc: false
-externalLink: https://dev.to/alahmadiq8/my-first-chrome-extension-stackoverflow-starred-viewer-1nm6
+link: https://dev.to/alahmadiq8/my-first-chrome-extension-stackoverflow-starred-viewer-1nm6
 ---

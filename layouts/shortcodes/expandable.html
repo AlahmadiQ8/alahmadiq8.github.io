@@ -1,0 +1,10 @@
+{{ $level := default (.Get "level") "2" }}
+
+
+<details>
+  <summary>{{ .Get "label" | default "More info" }}</summary>
+    <div>
+      {{ .Inner }}
+    </div>
+</details>
+

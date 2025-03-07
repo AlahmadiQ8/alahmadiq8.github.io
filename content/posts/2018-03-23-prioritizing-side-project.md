@@ -7,5 +7,5 @@ tags:
 - reflections
 title: On Prioritizing Side Projects
 toc: false
-externalLink: https://dev.to/alahmadiq8/on-prioritizing-side-projects-3kni
+link: https://dev.to/alahmadiq8/on-prioritizing-side-projects-3kni
 ---

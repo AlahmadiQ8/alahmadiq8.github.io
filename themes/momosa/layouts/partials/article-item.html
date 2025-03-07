@@ -6,7 +6,7 @@
       <div
         class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl">
       </div>
-      <a href="{{ if .Params.externalLink }} {{ .Params.externalLink }} {{ else }} {{ .RelPermalink }} {{ end }}" {{ if .Params.externalLink }}target="_blank" rel="noopener noreferrer" {{end}} >
+      <a href="{{ if .Params.link }} {{ .Params.link }} {{ else }} {{ .RelPermalink }} {{ end }}" {{ if .Params.link }}target="_blank" rel="noopener noreferrer" {{end}} >
         <span class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
         <span class="relative z-10">
           {{ .Title }}

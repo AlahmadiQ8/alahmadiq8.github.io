@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <content>
+    {{ if and .Data.Singular (ne .Type "tags") }}
+      <h3>Filtering for "{{ .Title }}"</h3>
+    {{ end }}
+    {{ if or .Paginator.HasPrev .Paginator.HasNext }}
+      {{- partial "pagination.html" . -}}
+    {{ end }}
+    <ul class="blog-posts">
+      {{ range .Paginator.Pages }}
+        <li>
+          {{ if ne .Type "tags" }}
+          <span>
+            <i>
+              <time datetime="{{ .Date.Format "2006-01-02" }}" pubdate>
+                {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+              </time>
+            </i>
+          </span>
+          {{ end }}
+          {{ if .Params.link }}
+            <a href="{{ .Params.link }}" target="_blank">{{ .Title }} ↪</a>
+          {{ else }}
+            <a href="{{ .RelPermalink }}">
+            {{ if ne .Type "tags" }}
+            {{ .Title }}
+            {{else}}
+            {{ $taxonomyObject := .Site.Taxonomies.tags }}
+            {{ $term := .Title }}
+            {{ $termObject := index $taxonomyObject $term }}
+            {{ printf "%s (%d)" .Title $termObject.Count }}
+            {{ end }}
+            </a>
+          {{ end }}
+        </li>
+      {{ else }}
+        <li>No posts yet</li>
+      {{ end }}
+    </ul>
+  </content>
+{{ end }}

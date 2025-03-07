@@ -6,7 +6,7 @@ publishdate: 2019-03-13
 tags:
 - snippets
 title: Making a Words Offset Iterator with Iterators & Generators in Typescript
-toc: false
+toc: true
 ---
 
 ## Background

@@ -1,11 +1,15 @@
 baseURL: https://alahmadiq8.github.io
 languageCode: en-us
-defaultContentLanguage: en
-title: Momonet
-theme: momosa
+title: Mohammad Alahmadi's Personal Site
+theme: "hugo-simple"
 googleAnalytics: UA-123456789-1
-disqusShortname: yourdiscussshortname
 enableGitInfo: true
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT: true
+
+# https://github.com/gohugoio/hugo/issues/12152
+capitalizeListTitles: false
 
 taxonomies:
   tag: tags
@@ -33,6 +37,22 @@ params:
   logoAlt: Momonet - Mohammad Alahmadi
 
 menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Blog
+      url: /posts/
+      weight: 20
+    - name: Library
+      url: /library/
+      weight: 20
+    - name: Resume
+      url: https://1drv.ms/w/s!As1_9Cfxukrb3GXFGd0GFzpn4J7b?e=pRQzY0
+      weight: 30
+    - name: Tags
+      url: /tags/
+      weight: 40
   nav:
     - name: Home
       url: /
