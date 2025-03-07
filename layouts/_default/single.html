@@ -1,0 +1,35 @@
+{{ define "main" }}
+  {{ if and (ne .IsHome true) (not .Params.menu) }}
+        <i>
+          <time
+            style="color: var(--text-light);"
+            datetime="{{ .Date.Format "2006-01-02" }}"
+            pubdate
+          >
+            {{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+        {{ $tags := .GetTerms "tags" }}
+        {{ if gt (len $tags) 0 }}
+        <div>
+          <div style="display: inline-block;">
+            {{ range $tags }}
+              <a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>&nbsp;&nbsp;
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if and (ne .IsHome true) (not .Params.menu) }}
+        <hr>
+        {{end}}
+  {{ end }}
+  {{ if .Params.toc }}
+    <details>
+      <summary>Table of Contents</summary>
+      {{ .TableOfContents }}
+    </details>
+  {{ end }}
+  <content>
+    {{ .Content }}
+  </content>
+{{ end }}
