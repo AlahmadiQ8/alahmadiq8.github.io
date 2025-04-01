@@ -39,7 +39,9 @@ params:
   defaultDarkTheme: false
   moveFooterToHeader: false
   # navTitleText: Cupper Theme
-  logoAlt: Momonet - Mohammad Alahmadi
+  logoAlt: Mohammad Alahmadi
+  hideRSSLink: true
+
 
 menu:
   main:
