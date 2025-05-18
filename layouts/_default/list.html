@@ -3,6 +3,7 @@
     {{ if and .Data.Singular (ne .Type "tags") }}
       <h3>Filtering for "{{ .Title }}"</h3>
     {{ end }}
+    {{ .Content }}
     {{ if or .Paginator.HasPrev .Paginator.HasNext }}
       {{- partial "pagination.html" . -}}
     {{ end }}

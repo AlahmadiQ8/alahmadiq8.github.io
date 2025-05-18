@@ -25,6 +25,9 @@ permalinks:
 imaging:
   quality: 99
 
+pagination:
+  pagerSize: 50
+
 params:
   description: My public space where I blog about programming, and career development.
   homeMetaContent: My public space where I blog about programming, and career development.
@@ -51,15 +54,15 @@ menu:
     - name: Blog
       url: /posts/
       weight: 20
-    - name: Library
-      url: /library/
-      weight: 20
+    - name: Archive
+      url: /archive
+      weight: 30
     - name: Resume
       url: https://1drv.ms/w/s!As1_9Cfxukrb3GXFGd0GFzpn4J7b?e=pRQzY0
-      weight: 30
+      weight: 40
     - name: Tags
       url: /tags/
-      weight: 40
+      weight: 50
   nav:
     - name: Home
       url: /
@@ -67,15 +70,15 @@ menu:
     - name: Blog
       url: /posts/
       weight: 20
-    - name: Library
-      url: /library/
-      weight: 20
+    - name: Archive
+      url: /archive
+      weight: 30
     - name: Resume
       url: https://1drv.ms/w/s!As1_9Cfxukrb3GXFGd0GFzpn4J7b?e=pRQzY0
-      weight: 30
+      weight: 40
     - name: Tags
       url: /tags/
-      weight: 40
+      weight: 50
 
 markup:
   defaultMarkdownHandler: goldmark
